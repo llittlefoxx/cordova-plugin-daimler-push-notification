@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-daimler-push-notification" version="0.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>daimlerpushnotification</name>
+    <js-module name="daimlerpushnotification" src="www/daimlerpushnotification.js">
+        <clobbers target="cordova.plugins.daimlerpushnotification" /></js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+        <feature name="daimlerpushnotification">
+            <param name="ios-package" value="daimlerpushnotification" />
+        </feature>
+    </config-file>
+        <source-file src="src/ios/daimlerpushnotification.m" />
+        <framework src="src/ios/BasePush.framework" custom="true"/>
+    </platform>
+</plugin>

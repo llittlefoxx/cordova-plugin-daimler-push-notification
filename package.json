@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+        "spec": "ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+        "type": "git"
+      },
+      "/Users/dalitlili/workspace/meisterapp/Meister-App"
+    ]
+  ],
+  "_from": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+  "_inCache": true,
+  "_location": "/cordova-daimler-push-notification",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+    "spec": "ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git#48eba549cf5d01b2f600ce649c35e7c450fa9cf4",
+  "_shasum": "cc609059600378abd1697a753f242b29978a90e3",
+  "_shrinkwrap": null,
+  "_spec": "git+ssh://git@gitlab.intern.etecture.de:mtlili/daimlerpush.git",
+  "_where": "/Users/dalitlili/workspace/meisterapp/Meister-App",
+  "author": "Mohamed ali Tlili",
+  "cordova": {
+    "id": "cordova-plugin-daimler-push-notification",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Daimler push notification system",
+  "devDependencies": {},
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "OpenSource",
+  "name": "cordova-daimler-push-notification",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.intern.etecture.de:mtlili/daimlerpush.git"
+  },
+  "version": "0.0.3"
+}
